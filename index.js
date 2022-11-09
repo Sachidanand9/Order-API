@@ -5,7 +5,7 @@ const taskRoutes = require('./routes/Orders');
 const db = require('./config/key').MongoURL;
 const cors = require('cors');
 const app = express();
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 
 
