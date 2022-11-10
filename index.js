@@ -25,3 +25,5 @@ app.use('/', taskRoutes);
 app.listen(PORT, () => {
     console.log(`Server Running On PORT ${PORT}`)
 });
+
+module.exports = app;
